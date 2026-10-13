@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hotel Reservation Form</title>
+<style>
+body {
+background-color: lightgray;
+font-family: Arial;
+}
+.form-box {
+width: 500px;
+margin: 20px auto;
+background-color: white;
+padding: 15px;
+border: 2px solid teal;
+}
+h2 {
+color: teal;
+text-align: center;
+}
+.row {
+margin-bottom: 10px;
+}
+label {
+width: 120px;
+display: inline-block;
+font-weight: bold;
+}
+input[type="text"], input[type="email"] {
+width: 250px;
+padding: 5px;
+}
+.btn {
+text-align: center;
+margin-top: 15px;
+}
+.btn input {
+background-color: teal;
+color: white;
+padding: 8px 15px;
+border: none;
+}
+</style>
+</head>
+<body>
+
+<div class="form-box">
+<h2>Continental Hotel Reservation Form</h2>
+<form>
+
+<div class="row">
+<label>Name</label>
+<input type="text" placeholder="Enter your name">
+</div>
+
+<div class="row">
+<label>eMail</label>
+<input type="email" value="info@continental.pk">
+</div>
+
+<div class="row">
+<label>Mobile No</label>
+<input type="text" placeholder="Enter your cell number">
+</div>
+
+<div class="row">
+<label>Arrival Time</label>
+<input type="text" placeholder="Enter your arrival time">
+</div>
+
+<div class="row">
+<label>Departure</label>
+</div>
+
+<div class="row">
+<label>Room Type</label>
+<input type="checkbox"> Single
+<input type="checkbox"> Double
+<input type="checkbox"> Presidential Suite
+</div>
+
+<div class="row">
+<label>Preferences</label>
+<input type="checkbox"> Non-Smoking
+<input type="checkbox"> Internet
+<input type="checkbox"> Firm Mattress
+</div>
+
+<div class="row">
+<label>Mode of Payment</label>
+<input type="checkbox"> Cash
+<input type="checkbox"> Check
+<input type="checkbox"> Credit Card
+<select>
+<option>Select Card</option>
+<option>Visa</option>
+<option>Mastercard</option>
+</select>
+</div>
+
+<div class="btn">
+<input type="submit" value="Send Data">
+</div>
+
+</form>
+</div>
+
+</body>
+</html>
